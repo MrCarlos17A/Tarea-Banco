@@ -1,0 +1,31 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: solicitudes
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-dev_only}
+    volumes: [dbdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL","pg_isready -U app"]
+      interval: 5s
+      retries: 10
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: jdbc:postgresql://db:5432/solicitudes
+      DB_USER: app
+      DB_PASSWORD: ${DB_PASSWORD:-dev_only}
+      JWT_SECRET: ${JWT_SECRET:-dev-secret-cambiar-por-uno-de-32-caracteres-minimo}
+      APP_VERSION: ${APP_VERSION:-1.0.0}
+    depends_on:
+      db: {condition: service_healthy}
+    deploy:
+      resources:
+        limits: {cpus: "1.0", memory: 512M}
+  frontend:
+    build: ./frontend
+    ports: ["8080:8080"]
+    depends_on: [backend]
+volumes:
+  dbdata:

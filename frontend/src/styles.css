@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bcp-navy: #002a8d;
+  --color-bcp-navy-dark: #001b5e;
+  --color-bcp-orange: #ff7800;
+  --color-bcp-orange-hover: #e66900;
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Inter,
+    Arial,
+    sans-serif;
+}

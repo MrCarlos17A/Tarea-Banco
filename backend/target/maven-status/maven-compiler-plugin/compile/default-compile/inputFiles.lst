@@ -1,0 +1,12 @@
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\config\DataInit.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\model\Cliente.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\model\Solicitud.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\model\Usuario.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\repo\Repos.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\security\AuditFilter.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\security\JwtFilter.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\security\JwtService.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\SolicitudesApplication.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\web\AuthController.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\web\ClienteController.java
+D:\UTP\CICLO VIII\HERRAMIENTAS DE DESARROLLO\SEMANA 16\prototipo_BCP_java\prototipo-java\backend\src\main\java\pe\demo\solicitudes\web\SolicitudController.java
